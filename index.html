@@ -999,123 +999,228 @@
             <div class="stat-label">Success Rate %</div>
         </div>
     </section>
-
-    <!-- Services Section -->
+<!-- ==================== NEW SERVICES SECTION (REPLACE OLD ONE) ==================== -->
     <section class="services" id="services">
-        <h2 class="section-title">Our Premium Services</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-shopping-cart"></i></div>
-                <h3 class="service-title">E-Commerce Solutions</h3>
-                <p class="service-desc">Full-featured online stores with payment gateways, inventory management, and analytics dashboard.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-hospital"></i></div>
-                <h3 class="service-title">Healthcare Platforms</h3>
-                <p class="service-desc">Advanced hospital management systems with appointment booking and patient portals.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-graduation-cap"></i></div>
-                <h3 class="service-title">Education Portals</h3>
-                <p class="service-desc">Complete LMS with online courses, student management, and virtual classrooms.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
-                <h3 class="service-title">Mobile Applications</h3>
-                <p class="service-desc">Native iOS and Android apps with stunning UI/UX and powerful features.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-code"></i></div>
-                <h3 class="service-title">Custom Software</h3>
-                <p class="service-desc">Tailored CRM, ERP, and management systems built specifically for your business.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
-                <h3 class="service-title">UI/UX Design</h3>
-                <p class="service-desc">Modern, conversion-focused designs that elevate your brand and engage users.</p>
+        <div class="container">
+            <h2 class="section-title">Our Premium Services</h2>
+            <div class="services-grid">
+                <!-- Service Card 1 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-shopping-cart"></i></div>
+                    <h3 class="service-title">E-Commerce Solutions</h3>
+                    <p class="service-desc">Full-featured online stores with payment gateways, inventory management, and analytics dashboard.</p>
+                </div>
+                <!-- Service Card 2 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-hospital"></i></div>
+                    <h3 class="service-title">Healthcare Platforms</h3>
+                    <p class="service-desc">Advanced hospital management systems with appointment booking and patient portals.</p>
+                </div>
+                <!-- Service Card 3 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3 class="service-title">Education Portals</h3>
+                    <p class="service-desc">Complete LMS with online courses, student management, and virtual classrooms.</p>
+                </div>
+                <!-- Service Card 4 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3 class="service-title">Mobile Applications</h3>
+                    <p class="service-desc">Native iOS and Android apps with stunning UI/UX and powerful features.</p>
+                </div>
+                <!-- Service Card 5 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-code"></i></div>
+                    <h3 class="service-title">Custom Software</h3>
+                    <p class="service-desc">Tailored CRM, ERP, and management systems built specifically for your business.</p>
+                </div>
+                <!-- Service Card 6 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3 class="service-title">UI/UX Design</h3>
+                    <p class="service-desc">Modern, conversion-focused designs that elevate your brand and engage users.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Portfolio Section -->
+    <style>
+        .services { background: #f8f9fa; }
+        .section-title { text-align: center; font-size: 3.5rem; margin-bottom: 60px; font-weight: 700; }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .service-card {
+            background: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        }
+        .service-icon {
+            font-size: 4rem;
+            color: #007bff; /* Primary Color */
+            margin-bottom: 20px;
+        }
+        .service-title { font-size: 2.2rem; font-weight: 600; margin-bottom: 15px; }
+        .service-desc { font-size: 1.5rem; color: #6c757d; line-height: 1.7; }
+    </style>
+    <!-- ==================== NEW PORTFOLIO SECTION (REPLACE OLD ONE) ==================== -->
     <section class="portfolio" id="portfolio">
-        <h2 class="section-title">Featured Projects</h2>
-        <div class="portfolio-grid">
-            <div class="portfolio-item">
-                <div class="portfolio-bg"><i class="fas fa-shopping-bag"></i></div>
-                <div class="portfolio-content">
-                    <h3 class="portfolio-title">AuraCart Store</h3>
-                    <p class="portfolio-desc">Modern e-commerce platform with real-time inventory</p>
-                    <div class="portfolio-tags">
-                        <span class="tag">E-Commerce</span>
-                        <span class="tag">React</span>
-                        <span class="tag">Node.js</span>
+        <div class="container">
+            <h2 class="section-title">Explore My Live Projects</h2>
+            <div class="portfolio-grid">
+                
+                <!-- Project 1: AuraCart E-commerce -->
+                <div class="portfolio-card">
+                    <img src="https://images.pexels.com/photos/3944454/pexels-photo-3944454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="AuraCart E-commerce">
+                    <div class="card-content">
+                        <h3>AuraCart E-commerce</h3>
+                        <p>A modern, fully functional online store with a clean user interface.</p>
+                        <a href="https://muhammadumairamir12-del.github.io/-AuraCart-ecommerece/" target="_blank" class="demo-button">View Live Demo <i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-bg"><i class="fas fa-heartbeat"></i></div>
-                <div class="portfolio-content">
-                    <h3 class="portfolio-title">MediCare System</h3>
-                    <p class="portfolio-desc">Complete hospital management solution</p>
-                    <div class="portfolio-tags">
-                        <span class="tag">Healthcare</span>
-                        <span class="tag">Vue.js</span>
-                        <span class="tag">Python</span>
+
+                <!-- Project 2: ZFC Restaurant -->
+                <div class="portfolio-card">
+                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="ZFC Restaurant">
+                    <div class="card-content">
+                        <h3>ZFC Restaurant</h3>
+                        <p>A dynamic website for a restaurant with a digital menu and ordering system.</p>
+                        <a href="https://muhammadumairamir12-del.github.io/zfc/" target="_blank" class="demo-button">View Live Demo <i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-bg"><i class="fas fa-book"></i></div>
-                <div class="portfolio-content">
-                    <h3 class="portfolio-title">EduLearn Platform</h3>
-                    <p class="portfolio-desc">Advanced learning management system</p>
-                    <div class="portfolio-tags">
-                        <span class="tag">Education</span>
-                        <span class="tag">Angular</span>
-                        <span class="tag">MongoDB</span>
+
+                <!-- Project 3: Corporate Website -->
+                <div class="portfolio-card">
+                    <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Corporate Website">
+                    <div class="card-content">
+                        <h3>Corporate Website</h3>
+                        <p>A professional and sleek website for a modern business entity.</p>
+                        <a href="https://muhammadumairamir12-del.github.io/corporate-website/" target="_blank" class="demo-button">View Live Demo <i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-bg"><i class="fas fa-building"></i></div>
-                <div class="portfolio-content">
-                    <h3 class="portfolio-title">Corporate Hub</h3>
-                    <p class="portfolio-desc">Professional business website with CMS</p>
-                    <div class="portfolio-tags">
-                        <span class="tag">Corporate</span>
-                        <span class="tag">WordPress</span>
-                        <span class="tag">PHP</span>
+                
+                <!-- Project 4: CreativeFolio -->
+                <div class="portfolio-card">
+                    <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="CreativeFolio">
+                    <div class="card-content">
+                        <h3>CreativeFolio</h3>
+                        <p>A stylish personal portfolio to showcase creative work and skills.</p>
+                        <a href="https://muhammadumairamir12-del.github.io/CreativeFolio/" target="_blank" class="demo-button">View Live Demo <i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-bg"><i class="fas fa-mobile"></i></div>
-                <div class="portfolio-content">
-                    <h3 class="portfolio-title">FitTrack App</h3>
-                    <p class="portfolio-desc">Fitness tracking mobile application</p>
-                    <div class="portfolio-tags">
-                        <span class="tag">Mobile</span>
-                        <span class="tag">React Native</span>
-                        <span class="tag">Firebase</span>
+
+                <!-- Project 5: HyperDrive Landing Page -->
+                <div class="portfolio-card">
+                    <img src="https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="HyperDrive Landing Page">
+                    <div class="card-content">
+                        <h3>HyperDrive Landing Page</h3>
+                        <p>A high-converting, animated landing page for product promotion.</p>
+                        <a href="https://muhammadumairamir12-del.github.io/HyperDrive/" target="_blank" class="demo-button">View Live Demo <i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-bg"><i class="fas fa-chart-line"></i></div>
-                <div class="portfolio-content">
-                    <h3 class="portfolio-title">Analytics Dashboard</h3>
-                    <p class="portfolio-desc">Real-time business intelligence platform</p>
-                    <div class="portfolio-tags">
-                        <span class="tag">Analytics</span>
-                        <span class="tag">D3.js</span>
-                        <span class="tag">Express</span>
+
+                <!-- Project 6: Student Admission Form -->
+                <div class="portfolio-card">
+                    <img src="https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Student Admission Form">
+                    <div class="card-content">
+                        <h3>Student Admission Form</h3>
+                        <p>A clean and functional admission form for educational institutions.</p>
+                        <a href="https://muhammadumairamir12-del.github.io/student-admission-form/" target="_blank" class="demo-button">View Live Demo <i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
+                
+                <!-- Project 7: General Demo Page -->
+                <div class="portfolio-card">
+                    <img src="https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Demo Page">
+                    <div class="card-content">
+                        <h3>General Demo Page</h3>
+                        <p>A versatile demo page showcasing various UI components and layouts.</p>
+                        <a href="https://muhammadumairamir12-del.github.io/demo-page/" target="_blank" class="demo-button">View Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
+    <style>
+        .portfolio { background: #fff; }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+        .portfolio-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+            transition: transform 0.3s, box-shadow 0.3s;
+            animation: fadeIn 0.8s ease-out forwards;
+            opacity: 0;
+        }
+        
+        /* Staggered animation */
+        .portfolio-card:nth-child(2) { animation-delay: 0.1s; }
+        .portfolio-card:nth-child(3) { animation-delay: 0.2s; }
+        .portfolio-card:nth-child(4) { animation-delay: 0.3s; }
+        .portfolio-card:nth-child(5) { animation-delay: 0.4s; }
+        .portfolio-card:nth-child(6) { animation-delay: 0.5s; }
+        .portfolio-card:nth-child(7) { animation-delay: 0.6s; }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .portfolio-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+        }
+        .portfolio-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 25px;
+        }
+        .card-content h3 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .card-content p {
+            font-size: 1.5rem;
+            color: #6c757d;
+            margin-bottom: 20px;
+        }
+        .demo-button {
+            display: inline-block;
+            background-color: #007bff; /* Primary Color */
+            color: #fff;
+            padding: 10px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s;
+        }
+        .demo-button:hover {
+            background-color: #0056b3;
+        }
+        .demo-button i {
+            margin-left: 8px;
+        }
+    </style>
     <!-- Testimonials Section -->
     <section class="testimonials" id="testimonials">
         <h2 class="section-title">Client Success Stories</h2>
@@ -1374,4 +1479,3 @@
     </script>
 </body>
 </html>
-
